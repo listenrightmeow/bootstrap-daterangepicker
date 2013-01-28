@@ -186,7 +186,6 @@
         }
 
         if (this.trigger.length > 0) {
-            console.log('trigger');
             var self = this;
             $.map(self.trigger, function(element){
                 $(element).on('click', $.proxy(self.show, self));
