@@ -193,3 +193,5 @@
     font-size: 80%;
     color: #ccc;
 }
+
+.daterangepicker.start .calendar.right, .daterangepicker.end .calendar.left { display: none !important; }
